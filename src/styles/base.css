@@ -1,0 +1,45 @@
+body {
+    font-family: "Noto Sans", "Noto Sans JP", sans-serif;
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    cursor: default;
+    overscroll-behavior: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    color: inherit;
+    padding: 0;
+}
+button:hover {
+    background-color: var(--button-hover-color);
+}
+button:active {
+    background-color: var(--button-press-color);
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-button {
+    height: 10px;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray);
+    border-radius: 5px;
+}

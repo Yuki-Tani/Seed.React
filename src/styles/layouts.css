@@ -1,0 +1,30 @@
+#app {
+    display: grid;
+    grid-template:
+        "header header" auto
+        "nav    main"   minmax(min-content, 0)
+        "footer main"   auto
+        / auto  1fr;
+    gap: 8px;
+}
+#app > header {
+    grid-area: header;
+}
+#app > nav {
+    grid-area: nav;
+}
+#app > main {
+    grid-area: main;
+    margin: 0 4px;
+}
+#app > footer {
+    grid-area: footer;
+}
+
+#app.is-narrow {
+    grid-template:
+        "header" auto
+        "main"   auto
+        "footer" auto
+        / 100%;
+}

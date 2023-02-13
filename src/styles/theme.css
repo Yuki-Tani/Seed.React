@@ -1,0 +1,21 @@
+:root {
+    /* color 日本の美しい色と言葉 p110: 大暑*/
+    --color-1: #0061b1; /*00,97,177*/
+    --color-2: #003a8f; /*00,58,143*/
+    --color-3: #042274; /*04,34,116*/
+    --color-4: #fbfcf9; /*251,252,249*/
+    --color-5: #e9edef; /*233,237,239*/
+    --color-6: #bbcfd4; /*187,207,212*/
+    --color-7: #84aec8; /*132,174,200*/
+    --color-8: #526c99; /*82,108,153*/
+    --color-9: #c3c0c6; /*195,192,198*/
+
+    --color-black: #525252;
+    --color-gray: var(--color-9);
+
+    --background-color: var(--color-4);
+    --foreground-color: var(--color-black);
+
+    --button-hover-color: rgba(0, 0, 0, 0.05);
+    --button-press-color: rgba(0, 0, 0, 0.1);
+}
